@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Yuri</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><img src="./img/image-removebg-preview.png" alt=""></h1>
+        <nav>
+            <a href="#sobremim">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+            <input type="text" placeholder="Busca">
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="about-me" id="sobremim">
+                <div class="am-img">
+                    <img class="img" src="./img/foto-yuri.jpg" alt="foto Yuri">                    
+                </div>
+                <div class="am-p">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo vel sunt atque distinctio, provident odit. Harum enim aspernatur explicabo! Ducimus voluptatem obcaecati, neque nostrum unde animi quidem saepe ut odit!</p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="projetos">
+            <h1>Projetos</h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <div class="card-content">
+                      <h3>Projeto 1</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <div class="card-content">
+                      <h3>Projeto 2</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <div class="card-content">
+                      <h3>Projeto 3</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                    <div class="card-content">
+                      <h3>Projeto 4</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="btn">Read More</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="container" id="contato">
+            <h1>Contato</h1>
+            <div class="form-container">
+                <form action="#" method="post">
+                  <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                  </div>
+                  <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+        </section>
+    </main>
+</body>
+</html>
